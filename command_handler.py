@@ -13,7 +13,7 @@ async def start_salom(message: Message):
     tg = message.from_user.username
     language = message.from_user.language_code
     text = f"""
-Ismingiz: <b>{name}</b>
+Name: <b>{name}</b>
 telegram: <i>@{tg}</i>
 id: <code>{id}</code>
 til: {language}
